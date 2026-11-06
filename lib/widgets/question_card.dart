@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 
 class QuestionCard extends StatelessWidget {
@@ -13,19 +14,17 @@ class QuestionCard extends StatelessWidget {
     return Container(
       width: double.infinity,
       padding: const EdgeInsets.all(22),
-
       decoration: BoxDecoration(
         color: const Color(0xFF356AE6),
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: Colors.blue.withValues(0.15),
+            color: Colors.blue.withValues(alpha: 0.15),
             blurRadius: 12,
             offset: const Offset(0, 5),
           ),
         ],
       ),
-
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -34,9 +33,7 @@ class QuestionCard extends StatelessWidget {
             color: Colors.white,
             size: 30,
           ),
-
           const SizedBox(height: 15),
-
           Text(
             question,
             style: const TextStyle(

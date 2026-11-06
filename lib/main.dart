@@ -22,7 +22,7 @@ class KuisPintarApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
       ),
 
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }

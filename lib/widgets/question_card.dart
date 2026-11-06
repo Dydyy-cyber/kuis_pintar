@@ -19,7 +19,7 @@ class QuestionCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(20),
         boxShadow: [
           BoxShadow(
-            color: Colors.blue.withOpacity(0.15),
+            color: Colors.blue.withValues(0.15),
             blurRadius: 12,
             offset: const Offset(0, 5),
           ),

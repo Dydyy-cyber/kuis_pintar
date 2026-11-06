@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "pertanyaan": "Apa kepanjangan dari CPU?",
+    "pilihan": [
+      "Central Processing Unit",
+      "Computer Personal Unit",
+      "Central Program Utility",
+      "Control Processing User"
+    ],
+    "jawabanBenar": 0
+  },
+  {
+    "id": 2,
+    "pertanyaan": "Perangkat untuk memasukkan teks ke komputer adalah?",
+    "pilihan": [
+      "Monitor",
+      "Keyboard",
+      "Speaker",
+      "Printer"
+    ],
+    "jawabanBenar": 1
+  },
+  {
+    "id": 3,
+    "pertanyaan": "Manakah yang termasuk sistem operasi?",
+    "pilihan": [
+      "Microsoft Word",
+      "Google Chrome",
+      "Linux",
+      "Adobe Photoshop"
+    ],
+    "jawabanBenar": 2
+  },
+  {
+    "id": 4,
+    "pertanyaan": "Ekstensi file yang umum digunakan untuk gambar adalah?",
+    "pilihan": [
+      ".mp3",
+      ".jpg",
+      ".exe",
+      ".docx"
+    ],
+    "jawabanBenar": 1
+  },
+  {
+    "id": 5,
+    "pertanyaan": "Apa fungsi utama RAM pada komputer?",
+    "pilihan": [
+      "Menyimpan data sementara",
+      "Mencetak dokumen",
+      "Menampilkan gambar",
+      "Menghubungkan komputer ke listrik"
+    ],
+    "jawabanBenar": 0
+  },
+  {
+    "id": 6,
+    "pertanyaan": "Bahasa untuk mengatur tampilan halaman web adalah?",
+    "pilihan": [
+      "SQL",
+      "CSS",
+      "Python",
+      "PHP"
+    ],
+    "jawabanBenar": 1
+  },
+  {
+    "id": 7,
+    "pertanyaan": "Perangkat untuk menghubungkan beberapa jaringan komputer adalah?",
+    "pilihan": [
+      "Scanner",
+      "Router",
+      "Projector",
+      "Flashdisk"
+    ],
+    "jawabanBenar": 1
+  },
+  {
+    "id": 8,
+    "pertanyaan": "Apa kepanjangan HTML?",
+    "pilihan": [
+      "HyperText Markup Language",
+      "HighText Machine Language",
+      "HyperTool Multi Language",
+      "Home Tool Markup Link"
+    ],
+    "jawabanBenar": 0
+  },
+  {
+    "id": 9,
+    "pertanyaan": "Manakah contoh media penyimpanan eksternal?",
+    "pilihan": [
+      "Processor",
+      "RAM",
+      "Flashdisk",
+      "Motherboard"
+    ],
+    "jawabanBenar": 2
+  },
+  {
+    "id": 10,
+    "pertanyaan": "Apa tujuan menggunakan password yang kuat?",
+    "pilihan": [
+      "Mempercepat internet",
+      "Melindungi akun",
+      "Memperbesar penyimpanan",
+      "Menghemat baterai"
+    ],
+    "jawabanBenar": 1
+  }
+]

@@ -29,7 +29,6 @@ jobs:
           channel: stable
           cache: true
 
-      # Membuat konfigurasi Android jika belum tersedia
       - name: Generate Android Platform
         run: |
           if [ ! -f android/app/build.gradle ] && [ ! -f android/app/build.gradle.kts ]; then
@@ -42,12 +41,12 @@ jobs:
       - name: Analyze Project
         run: flutter analyze
 
-      - name: Build APK
-        run: flutter build apk --release
+      - name: Build Debug APK
+        run: flutter build apk --debug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: kuis-pintar-apk
-          path: build/app/outputs/flutter-apk/app-release.apk
+          name: kuis-pintar-debug-apk
+          path: build/app/outputs/flutter-apk/app-debug.apk
           if-no-files-found: error
